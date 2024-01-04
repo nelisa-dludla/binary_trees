@@ -15,7 +15,7 @@ size_t node_height(binary_tree_t *node)
 
 	left_height = node_height(node->left);
 	right_height = node_height(node->right);
-	
+
 	if (left_height > right_height)
 		return (left_height + 1);
 	else
